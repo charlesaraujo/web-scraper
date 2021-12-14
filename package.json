@@ -1,0 +1,20 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "a simple web scraper with node",
+  "main": "index.js",
+  "repository": "https://github.com/charlesaraujo/web-scraper.git",
+  "author": "Charles Silva <charles_araujo@ymail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
